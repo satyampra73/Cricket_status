@@ -104,6 +104,8 @@
             android:layout_width="300dp"
             android:layout_height="150dp"
             android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="onShikhar"
             android:layout_marginTop="10dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="15dp">
@@ -191,6 +193,8 @@
             android:layout_width="300dp"
             android:layout_height="150dp"
             android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="onRohit"
             android:layout_marginTop="10dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="15dp">
@@ -278,6 +282,8 @@
             android:layout_width="300dp"
             android:layout_height="150dp"
             android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="onShreyas"
             android:layout_marginTop="10dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="15dp">
@@ -365,6 +371,8 @@
             android:layout_width="300dp"
             android:layout_height="150dp"
             android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="onPant"
             android:layout_marginTop="10dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="15dp">
@@ -451,6 +459,8 @@
         <androidx.cardview.widget.CardView
             android:layout_width="300dp"
             android:layout_height="150dp"
+            android:clickable="true"
+            android:onClick="onJadeja"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             app:cardCornerRadius="20dp"
@@ -539,6 +549,8 @@
             android:layout_width="300dp"
             android:layout_height="150dp"
             android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="onHardik"
             android:layout_marginTop="10dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="15dp">
@@ -626,6 +638,8 @@
             android:layout_width="300dp"
             android:layout_height="150dp"
             android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="onShami"
             android:layout_marginTop="10dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="15dp">
@@ -713,6 +727,8 @@
             android:layout_width="300dp"
             android:layout_height="150dp"
             android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="onChahal"
             android:layout_marginTop="10dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="15dp">
@@ -800,6 +816,8 @@
             android:layout_width="300dp"
             android:layout_height="150dp"
             android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="onBhuvneshwar"
             android:layout_marginTop="10dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="15dp">
@@ -888,6 +906,8 @@
             android:layout_height="150dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:onClick="onDeepak"
             app:cardCornerRadius="20dp"
             app:cardElevation="15dp">
 
@@ -975,6 +995,8 @@
             android:layout_height="150dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:onClick="onPrithvi"
             app:cardCornerRadius="20dp"
             app:cardElevation="15dp">
 
@@ -1061,6 +1083,8 @@
             android:layout_width="300dp"
             android:layout_height="150dp"
             android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="onNitish"
             android:layout_marginTop="10dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="15dp">
@@ -1148,6 +1172,8 @@
             android:layout_width="300dp"
             android:layout_height="150dp"
             android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="onKlRahul"
             android:layout_marginTop="10dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="15dp">
@@ -1236,6 +1262,8 @@
             android:layout_height="150dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:onClick="onKuldeep"
             app:cardCornerRadius="20dp"
             app:cardElevation="15dp">
 
@@ -1322,6 +1350,8 @@
             android:layout_width="300dp"
             android:layout_height="150dp"
             android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="onKrunal"
             android:layout_marginTop="10dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="15dp">
@@ -1409,6 +1439,8 @@
             android:layout_width="300dp"
             android:layout_height="150dp"
             android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="onShardul"
             android:layout_marginTop="10dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="15dp">
@@ -1505,6 +1537,8 @@
             android:layout_width="300dp"
             android:layout_height="150dp"
             android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="onCoachDravid"
             android:layout_marginTop="10dp"
             app:cardCornerRadius="20dp"
             app:cardElevation="15dp">
@@ -1591,6 +1625,8 @@
         <androidx.cardview.widget.CardView
             android:layout_width="300dp"
             android:layout_height="150dp"
+            android:clickable="true"
+            android:onClick="onCoachSridhar"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             app:cardCornerRadius="20dp"
@@ -1680,6 +1716,8 @@
             android:layout_height="150dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:onClick="onCoachBharat"
             app:cardCornerRadius="20dp"
             app:cardElevation="15dp">
 
