@@ -32,6 +32,7 @@
                 android:src="@drawable/viratkohli"
                 />
             <TextView
+                android:id="@+id/txtName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Virat Kohli"
@@ -41,6 +42,7 @@
                 android:textColor="@color/black"
                 android:layout_marginTop="7dp"/>
             <TextView
+                android:id="@+id/txtRole"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Batsman"
@@ -133,6 +135,7 @@
                     android:textColor="@color/skyBlue"/>
 
                 <TextView
+                    android:id="@+id/txtMatchTestBat"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
@@ -141,6 +144,7 @@
                     android:textSize="15sp"
                     android:textStyle="bold" />
                 <TextView
+                    android:id="@+id/txtRunsTest"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="7854"
@@ -149,6 +153,7 @@
                     android:layout_marginLeft="5dp"
                     android:textSize="15sp"/>
                 <TextView
+                    android:id="@+id/txt50sTest"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="27"
@@ -158,6 +163,7 @@
                     android:textSize="15sp"
                     />
                 <TextView
+                    android:id="@+id/txt100sTest"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="27"
@@ -184,6 +190,7 @@
                     android:textSize="20sp"
                     android:textColor="@color/skyBlue"/>
                 <TextView
+                    android:id="@+id/txtMatchOdiBat"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="254"
@@ -192,6 +199,7 @@
                     android:layout_marginLeft="5dp"
                     android:textSize="15sp" />
                 <TextView
+                    android:id="@+id/txtRunsOdi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="12169"
@@ -200,6 +208,7 @@
                     android:layout_marginLeft="5dp"
                     android:textSize="15sp"/>
                 <TextView
+                    android:id="@+id/txt50sOdi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="62"
@@ -208,15 +217,16 @@
                     android:layout_marginLeft="5dp"
                     android:textSize="15sp"
                     />
+
                 <TextView
+                    android:id="@+id/txt100sOdi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="43"
-                    android:layout_marginTop="15dp"
-                    android:textStyle="bold"
                     android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:text="43"
                     android:textSize="15sp"
-                    />
+                    android:textStyle="bold" />
 
 
             </LinearLayout>
@@ -235,6 +245,7 @@
                     android:textSize="20sp"
                     android:textColor="@color/skyBlue"/>
                 <TextView
+                    android:id="@+id/txtMatchT20Bat"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="95"
@@ -243,6 +254,7 @@
                     android:layout_marginLeft="5dp"
                     android:textSize="15sp" />
                 <TextView
+                    android:id="@+id/txtRunsT20"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="3227"
@@ -251,6 +263,7 @@
                     android:layout_marginLeft="5dp"
                     android:textSize="15sp"/>
                 <TextView
+                    android:id="@+id/txt50sT20"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="29"
@@ -260,6 +273,7 @@
                     android:textSize="15sp"
                     />
                 <TextView
+                    android:id="@+id/txt100sT20"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
@@ -353,6 +367,7 @@
                     android:textSize="20sp"
                     android:textColor="@color/skyBlue"/>
                 <TextView
+                    android:id="@+id/txtMatchTestBowl"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="98"
@@ -361,6 +376,7 @@
                     android:layout_marginLeft="5dp"
                     android:textSize="15sp" />
                 <TextView
+                    android:id="@+id/txtWicketsTest"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
@@ -369,6 +385,7 @@
                     android:layout_marginLeft="5dp"
                     android:textSize="15sp"/>
                 <TextView
+                    android:id="@+id/txtEcoTest"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="2.90"
@@ -378,6 +395,7 @@
                     android:textSize="15sp"
                     />
                 <TextView
+                    android:id="@+id/txtBestTest"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0/0"
@@ -405,6 +423,7 @@
                     android:textColor="@color/skyBlue"/>
 
                 <TextView
+                    android:id="@+id/txtMatchOdiBowl"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
@@ -414,6 +433,7 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:id="@+id/txtWicketsOdi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
@@ -423,6 +443,7 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:id="@+id/txtEcoOdi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
@@ -431,6 +452,7 @@
                     android:textSize="15sp"
                     android:textStyle="bold" />
                 <TextView
+                    android:id="@+id/txtBestOdi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="1/15"
@@ -458,6 +480,7 @@
                     android:textColor="@color/skyBlue"/>
 
                 <TextView
+                    android:id="@+id/txtMatchT20Bowl"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
@@ -466,6 +489,7 @@
                     android:textSize="15sp"
                     android:textStyle="bold" />
                 <TextView
+                    android:id="@+id/txtWicketsT20"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="4"
@@ -474,6 +498,7 @@
                     android:layout_marginLeft="5dp"
                     android:textSize="15sp"/>
                 <TextView
+                    android:id="@+id/txtEcoT20"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="8.14"
@@ -484,6 +509,7 @@
                     />
 
                 <TextView
+                    android:id="@+id/txtBestT20"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
